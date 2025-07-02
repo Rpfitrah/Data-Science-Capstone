@@ -85,3 +85,7 @@ Data sourced from SpaceX public datasets and Wikipedia.
 🔗 GitHub: [@Rpfitrah](https://github.com/Rpfitrah)
 
 ---
+
+## 📝 License
+
+This project is intended for educational purposes only. No license is attached.

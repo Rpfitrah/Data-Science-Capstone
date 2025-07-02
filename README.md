@@ -1,7 +1,10 @@
 # 🚀 Data Science Capstone: Falcon 9 Landing Prediction & Analysis
 
-This repository contains the final project of the **IBM Data Science Professional Certificate**.  
-The objective is to analyze and predict the landing success of **SpaceX Falcon 9 first-stage boosters**, and present the results using interactive dashboards and visualizations.
+*Capstone project for IBM Data Science Certificate — predicting Falcon 9 booster landing success using Python, SQL, and ML pipelines.*
+
+![Repo Size](https://img.shields.io/github/repo-size/Rpfitrah/Data-Science-Capstone)
+![Last Commit](https://img.shields.io/github/last-commit/Rpfitrah/Data-Science-Capstone)
+![GitHub License](https://img.shields.io/github/license/Rpfitrah/Data-Science-Capstone)
 
 ---
 
@@ -10,16 +13,16 @@ The objective is to analyze and predict the landing success of **SpaceX Falcon 9
 - Predict whether a Falcon 9 booster will successfully land or not.
 - Identify key variables that impact landing success (e.g. payload, launch site).
 - Perform SQL-based analysis, geospatial visualization, and machine learning.
-- Build interactive tools to support decision-making.
+- Build interactive dashboards and maps to support decision-making.
 
 ---
 
 ## 🧠 Technologies Used
 
-- **Languages:** Python, SQL
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Dash, Folium, Scikit-learn, BeautifulSoup
-- **Tools:** Jupyter Notebook, IBM Db2, Git, VS Code
-- **Techniques:** EDA, Classification, SMOTE, GridSearchCV, Web Scraping, Data Wrangling
+- **Languages:** Python, SQL  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Dash, Folium, Scikit-learn, BeautifulSoup  
+- **Tools:** Jupyter Notebook, IBM Db2, Git, VS Code  
+- **Techniques:** Data Wrangling, EDA, Classification (Logistic, SVM, Decision Tree), SMOTE, GridSearchCV, Web Scraping
 
 ---
 
@@ -30,45 +33,53 @@ The objective is to analyze and predict the landing success of **SpaceX Falcon 9
 | 1  | [01_Data_Cleaning.ipynb](./01_Data_Cleaning.ipynb)  | Clean raw data from multiple sources (CSV, HTML)                            |
 | 2  | [02_Data_Wrangling.ipynb](./02_Data_Wrangling.ipynb)| Merge, format, and structure data for analysis                              |
 | 3  | [03_Web_Scraping.ipynb](./03_Web_Scraping.ipynb)    | Scrape payload data using BeautifulSoup from Wikipedia                      |
-| 4  | [04_Exploring_and_Preparing_Data.ipynb](./04_Exploring_and_Preparing_Data.ipynb) | Conduct exploratory analysis & feature engineering                        |
-| 5  | [05_SQL_Analysis.ipynb](./05_SQL_Analysis.ipynb)     | Analyze launch data using SQL queries on IBM Db2                            |
-| 6  | [06_Interactive_Dashboard_App.ipynb](./06_Interactive_Dashboard_App.ipynb) | Build a Dash app with interactive visualizations                          |
-| 7  | [07_Geospatial_Analysis_with_Folium.ipynb](./07_Geospatial_Analysis_with_Folium.ipynb) | Visualize launch sites and success geographically                         |
-| 8  | [08_Machine_Learning_Model_Training.ipynb](./08_Machine_Learning_Model_Training.ipynb) | Train predictive models (Logistic, SVM, Decision Tree)                    |
+| 4  | [04_Exploring_and_Preparing_Data.ipynb](./04_Exploring_and_Preparing_Data.ipynb) | Exploratory analysis & feature engineering                         |
+| 5  | [05_SQL_Analysis.ipynb](./05_SQL_Analysis.ipynb)     | SQL queries on IBM Db2 to analyze launch success trends                     |
+| 6  | [06_Interactive_Dashboard_App.ipynb](./06_Interactive_Dashboard_App.ipynb) | Dash app with interactive plots by site/payload                  |
+| 7  | [07_Geospatial_Analysis_with_Folium.ipynb](./07_Geospatial_Analysis_with_Folium.ipynb) | Map-based visualizations of launch sites                                   |
+| 8  | [08_Machine_Learning_Model_Training.ipynb](./08_Machine_Learning_Model_Training.ipynb) | Train predictive models with 94% accuracy                                  |
 
 ---
 
 ## 🔍 Key Results
 
-- ✅ Achieved **94% accuracy** in predicting booster landing success using Logistic Regression.
-- 📊 Coastal launch sites showed **30% higher success rates**.
-- 🌍 Geospatial mapping indicated **15% fuel savings** for launches near the equator.
-- 🧠 Reduced false negatives via **SMOTE** on imbalanced classes.
+- ✅ Achieved **94% accuracy** in predicting booster landing success using Logistic Regression  
+- 📊 Coastal launch sites showed **30% higher success rates**  
+- 🌍 Geospatial mapping indicated **15% fuel savings** for launches near the equator  
+- 🧠 Improved class balance using **SMOTE** to reduce false negatives
 
 ---
 
 ## 📊 Dashboard & Visuals
 
-- Explore launch outcomes filtered by payload and site in a dynamic [Dash App](./06_Interactive_Dashboard_App.ipynb).
-- View mapped launch sites with [Folium maps](./07_Geospatial_Analysis_with_Folium.ipynb).
+- Interactive dashboard created using Dash & Plotly:
+  
+  ![Dashboard Preview](images/dashboard-preview.png)
+
+- Geospatial map with launch outcomes via Folium:
+
+  ![Map Preview](images/launch-sites-map.png)
+
+> 📌 *You can replace the placeholder images above with real screenshots from your output.*
 
 ---
 
 ## 📚 Acknowledgements
 
-This project is part of the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) on Coursera.
+This project is part of the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) on Coursera.  
+Data sourced from SpaceX public datasets and Wikipedia.
 
 ---
 
 ## 👩‍💻 Author
 
 **Fitrah Rahmi Putri, S.Kom**  
-- LinkedIn: [fitrah-rahmi-putri](https://www.linkedin.com/in/fitrah-rahmi-putri-99711a157/)  
-- GitHub: [@Rpfitrah](https://github.com/Rpfitrah)  
-- Email: fitrah.rahmi.putri@gmail.com
+📧 Email: fitrah.rahmi.putri@gmail.com  
+🔗 LinkedIn: [fitrah-rahmi-putri](https://www.linkedin.com/in/fitrah-rahmi-putri-99711a157/)  
+🔗 GitHub: [@Rpfitrah](https://github.com/Rpfitrah)
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.

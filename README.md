@@ -50,17 +50,26 @@
 
 ---
 
-## 📊 Dashboard & Visuals
+## 📊 Dashboard Preview
 
-- Interactive dashboard created using Dash & Plotly:
-  
-  ![Dashboard Preview](images/dashboard-preview.png)
+Interactive dashboard showing launch success rate by site and payload range.
 
-- Geospatial map with launch outcomes via Folium:
+**1. Pie Chart — Launch Success by Site**  
+![Dashboard Pie](Image/dashboard-success-pie.png)
 
-  ![Map Preview](images/launch-sites-map.png)
+**2. Scatter Plot — Payload vs Success**  
+![Dashboard Scatter](Image/dashboard-payload-correlation.png)
 
-> 📌 *You can replace the placeholder images above with real screenshots from your output.*
+**3. Full Dashboard Layout**  
+![Dashboard Full](Image/dashboard_success.png)
+
+---
+
+## 🗺️ Geospatial Launch Map
+
+Interactive Folium map showing the success (green) and failure (red) outcomes at different launch sites.
+
+![Map](Image/launch-sites-map.png)
 
 ---
 

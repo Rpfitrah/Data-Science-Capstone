@@ -85,7 +85,3 @@ Data sourced from SpaceX public datasets and Wikipedia.
 🔗 GitHub: [@Rpfitrah](https://github.com/Rpfitrah)
 
 ---
-
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.

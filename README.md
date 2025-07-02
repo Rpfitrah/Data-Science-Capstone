@@ -55,13 +55,10 @@
 Interactive dashboard showing launch success rate by site and payload range.
 
 **1. Pie Chart — Launch Success by Site**  
-![Dashboard Pie](Image/dashboard-success-pie.png)
+![Dashboard Pie]([Image/dashboard-success-pie.png](https://github.com/Rpfitrah/Data-Science-Capstone/blob/main/Image/dashboard-success-pie.jpg))
 
 **2. Scatter Plot — Payload vs Success**  
-![Dashboard Scatter](Image/dashboard-payload-correlation.png)
-
-**3. Full Dashboard Layout**  
-![Dashboard Full](Image/dashboard_success.png)
+![Dashboard Scatter]([Image/dashboard-payload-correlation.png](https://github.com/Rpfitrah/Data-Science-Capstone/blob/main/Image/dashboard-payload-correlation.jpg))
 
 ---
 
@@ -69,7 +66,7 @@ Interactive dashboard showing launch success rate by site and payload range.
 
 Interactive Folium map showing the success (green) and failure (red) outcomes at different launch sites.
 
-![Map](Image/launch-sites-map.png)
+![Map]([Image/launch-sites-map.png](https://github.com/Rpfitrah/Data-Science-Capstone/blob/main/Image/Lunch%20Site%20Map.jpg))
 
 ---
 

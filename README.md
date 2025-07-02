@@ -66,7 +66,7 @@ Interactive dashboard showing launch success rate by site and payload range.
 
 Interactive Folium map showing the success (green) and failure (red) outcomes at different launch sites.
 
-![Map]([Image/launch-sites-map.png](https://github.com/Rpfitrah/Data-Science-Capstone/blob/main/Image/Lunch%20Site%20Map.jpg))
+![Map](Image/launch-sites-map.png](https://github.com/Rpfitrah/Data-Science-Capstone/blob/main/Image/Lunch%20Site%20Map.jpg)
 
 ---
 

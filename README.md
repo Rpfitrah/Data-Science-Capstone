@@ -1,10 +1,31 @@
 # 🚀 Data Science Capstone: Falcon 9 Landing Prediction & Analysis
 
-*Capstone project for IBM Data Science Certificate — predicting Falcon 9 booster landing success using Python, SQL, and ML pipelines.*
-
 ![Repo Size](https://img.shields.io/github/repo-size/Rpfitrah/Data-Science-Capstone)
 ![Last Commit](https://img.shields.io/github/last-commit/Rpfitrah/Data-Science-Capstone)
 ![GitHub License](https://img.shields.io/github/license/Rpfitrah/Data-Science-Capstone)
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
+![Plotly Dash](https://img.shields.io/badge/Plotly-Dash-blueviolet)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+
+# 🚀 Data Science Capstone: Falcon 9 Landing Prediction & Analysis
+
+*End-to-End Data Pipeline for Predicting Falcon 9 Booster Landing Success*
+
+This capstone project is part of the **IBM Data Science Professional Certificate** program.  
+It demonstrates a complete data science workflow using real-world space launch data from SpaceX.
+
+The goal of this project is to **predict whether a Falcon 9 first-stage booster will successfully land**, using a combination of **Python**, **SQL**, **data visualization**, and **machine learning techniques**.
+
+Through this project, I applied the full data science process:
+- **Web scraping** and **data wrangling** from multiple sources (HTML, CSV)
+- **Exploratory data analysis** (EDA) using Matplotlib, Seaborn, and SQL
+- **Geospatial analysis** using Folium
+- **Interactive dashboard** development using Plotly Dash
+- **Supervised learning** with classification models like Logistic Regression, SVM, and Decision Tree  
+- **Hyperparameter tuning** with GridSearchCV  
+- **Model evaluation** with accuracy scores and visual comparisons
+
+This repository is designed to be fully reproducible, modular, and readable for future learning, team collaboration, or presentation purposes.
 
 ---
 
